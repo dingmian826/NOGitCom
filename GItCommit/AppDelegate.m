@@ -22,9 +22,13 @@
      *借助终端创建git
      *cd 项目
      *git init（创建）
+     *git add README.md
      *git add. (add 和 . 挨着)
      *git commit -m"注释"
-     *重新打开项目即可
+     *重新打开项目生成
+     git remote add origin https://github.com/dingmian826/-.git（github项目的地址）
+     git push -u origin master推送
+     创建分支
      */
     return YES;
 }
