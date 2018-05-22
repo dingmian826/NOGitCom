@@ -17,6 +17,15 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    //创建项目的时候没有使用git
+    /*
+     *借助终端创建git
+     *cd 项目
+     *git init（创建）
+     *git add. (add 和 . 挨着)
+     *git commit -m"注释"
+     *重新打开项目即可
+     */
     return YES;
 }
 
